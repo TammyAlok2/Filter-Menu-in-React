@@ -1,0 +1,50 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-top: auto;
+    font-family: arial;
+
+    flex: 1 1 0; /* Prevent the extra space around content */
+  text-align: center; /* Align text on center */
+  display: flex; /* Display as flex */
+  flex-direction: column; /* Display flex in column */
+  align-items: center; /* Align items on center */
+ max-width: 400px; /* Set max-width so the last items will behave in a more traditional way */
+}
+
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .product-card{
+    text-align: center;
+  }
+  img{
+    width:50%;
+  }
+  .main{
+    display: flex; /* Make products flex in row direction (default) */
+    flex-wrap: wrap; /* Make products overflow on new row */
+    justify-content: center; /* Or space-between or space-around */
+
+  }
+  .card p{
+    flex-grow: 1; /* Keep p's same size */
+  }
